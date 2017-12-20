@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import MobileSelect from 'mobile-select';
 
+const populateData = () => {
+  const data=[];
+  for (let index = 0; index < 1000; index++) {
+    data.push(index);
+  }
+  return data;
+}
+
 class MobilePicker extends Component {
   componentDidMount() {
     // MobileSelect is a function wrapped in IIFE
@@ -8,7 +16,7 @@ class MobilePicker extends Component {
       trigger: '#counter',
       title: 'TITLE',
       wheels: [
-        { data: ['1', '2', '3', '4', '5', '6', '7'] }
+        { data: populateData() }
       ],
       position: [2] //Initialize positioning
     });
