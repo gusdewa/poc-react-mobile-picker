@@ -16,7 +16,7 @@ class MobilePicker extends Component {
 
   render() {
     return (
-      <div id="counter" />
+      <input type="text" id="counter" placeholder="Select Counter" />
     );
   }
 }
