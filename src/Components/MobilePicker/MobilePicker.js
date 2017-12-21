@@ -32,6 +32,7 @@ class MobilePicker extends Component {
       cancelLabel,
     } = this.props;
 
+    // eslint-disable-next-line
     const mobileSelect = new MobileSelect({
       trigger: `#${id}`,
       title,
