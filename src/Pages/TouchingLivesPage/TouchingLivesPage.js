@@ -22,7 +22,6 @@ class TouchingLivesPage extends Component {
     super(props);
     this.handlePickerSelect = this.handlePickerSelect.bind(this);
     this.state = {
-      // TODO: To move into props injected from the Redux store
       values: mockGetMultiplierValues(),
       selectedValue: mockGetSelectedValue(),
     }

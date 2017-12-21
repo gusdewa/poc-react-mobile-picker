@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import MobileSelect from 'mobile-select';
 
 /**
- * Get relative position of an array
+ * Get relative position of an array from the selectedValue
  * @param {Array} values 
  * @param {String} selectedValue 
  */
